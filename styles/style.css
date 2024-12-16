@@ -1,0 +1,108 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+    font-family:'Times New Roman', Times, serif
+}
+h1{
+    text-align: center;
+    font-size: 4rem; /*1 rem es igual a 16 px}*/
+    border: 2px solid #000
+}
+.main-conten h1.texto-custom{
+    color: aquamarine;
+
+}
+.texto-custom{
+    color: red !important;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-color: rgb(39, 131, 96);
+}
+
+.texto-custom-dos{
+    color: greenyellow;
+    background-color: brown;
+    font-style: oblique;
+}
+h1{
+    border-color:#8f2ba2
+}
+
+.espacio-abajo-custom{
+    /* margin: 50px 30px  60px 40px; */
+    margin: 50px 30px;/*le definimos 50 arriba y 30 abajo, lo mismo que arriba*/
+    padding: 20px  2rem;
+}
+span{
+    margin-bottom: 400px;
+}
+#identificador-parrafo{
+    margin-top: 70px;
+}
+
+.list-item{
+    margin-left: 50px;
+}
+ul .list-item{
+    background-color: wheat;
+    border: 2px solid black;
+}
+ul .list-item a{
+    text-decoration: none;
+    color: chocolate;
+
+}
+
+ul .list-item a:hover{
+    color:#8f2ba2;
+}
+
+ul .list-item .hipervinculo-especial{
+    color:rgb(82, 118, 184);
+}
+ul .list-item .hipervinculo-especial-dos{
+    font-size: xx-large;
+}
+.caja-ejemplo{
+    background-color: #8f2ba2;
+    width: 400px;
+    border: 3px solid orangered;
+}
+.navegador{
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    gap:15px;
+}
+.nav-item{
+    color: #444040;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-item:hover{
+    color: #8f2ba2;
+}
+.nav-item a {
+    text-decoration: none;
+}
+.nav-item a .icon:hover{
+    font-size: 1.5rem;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
+    list-style: none;
+}
